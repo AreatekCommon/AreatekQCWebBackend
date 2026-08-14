@@ -1,0 +1,231 @@
+{
+  "points": [
+    {
+      "id": "0",
+      "axes": {
+        "J1": -37.18,
+        "J2": -92.14,
+        "J3": 99.3,
+        "J4": -0.45,
+        "J5": 82.5,
+        "J6": -104.25
+      },
+      "name": "Robot start position"
+    },
+    {
+      "id": "1",
+      "axes": {
+        "J1": -106.16,
+        "J2": -117.36,
+        "J3": 114.22,
+        "J4": 3.79,
+        "J5": -45.99,
+        "J6": 25.41
+      },
+      "name": "Multi-angle scan sweep"
+    },
+    {
+      "id": "2",
+      "axes": {
+        "J1": -71.14,
+        "J2": -84.05,
+        "J3": 89.09,
+        "J4": 32.53,
+        "J5": -42.6,
+        "J6": -42.3
+      },
+      "name": "Route waypoint"
+    },
+    {
+      "id": "3",
+      "axes": {
+        "J1": -71.14,
+        "J2": -68.07,
+        "J3": 32.36,
+        "J4": 97.8,
+        "J5": -21.45,
+        "J6": -115.47
+      },
+      "name": "Multi-angle scan sweep"
+    },
+    {
+      "id": "6",
+      "axes": {
+        "J1": -44.23,
+        "J2": -35.01,
+        "J3": 96.22,
+        "J4": -78.53,
+        "J5": 43.84,
+        "J6": -33.67
+      },
+      "name": "Scanning from below"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "0",
+      "type": "home",
+      "point_id": "0",
+      "next_node_id": "1",
+      "turntable": {
+        "angle": 0.0,
+        "speed": 50.0,
+        "acceleration": 50.0,
+        "start_angle": 0.0,
+        "end_angle": 360.0
+      },
+      "motion": {
+        "speed": 50.0,
+        "acceleration": 50.0
+      },
+      "x": 40.0,
+      "y": 40.0
+    },
+    {
+      "id": "1",
+      "type": "advanced_scan",
+      "point_id": "1",
+      "prev_node_id": "0",
+      "next_node_id": "3",
+      "turntable": {
+        "start_angle": 0.0,
+        "end_angle": 360.0,
+        "scan_count": 12,
+        "speed": 50.0,
+        "acceleration": 50.0
+      },
+      "motion": {
+        "speed": 50.0,
+        "acceleration": 50.0
+      },
+      "x": 260.0,
+      "y": 40.0
+    },
+    {
+      "id": "3",
+      "type": "advanced_scan",
+      "point_id": "3",
+      "prev_node_id": "1",
+      "next_node_id": "5",
+      "turntable": {
+        "start_angle": 360.0,
+        "end_angle": 0.0,
+        "scan_count": 34,
+        "speed": 50.0,
+        "acceleration": 50.0
+      },
+      "motion": {
+        "speed": 50.0,
+        "acceleration": 50.0
+      },
+      "x": 700.0,
+      "y": 40.0
+    },
+    {
+      "id": "5",
+      "type": "advanced_scan",
+      "point_id": "0",
+      "prev_node_id": "3",
+      "next_node_id": "6",
+      "turntable": {
+        "angle": 0.0,
+        "speed": 50.0,
+        "acceleration": 50.0,
+        "start_angle": 0.0,
+        "end_angle": 360.0,
+        "scan_count": 1
+      },
+      "motion": {
+        "speed": 50.0,
+        "acceleration": 50.0
+      },
+      "x": 260.0,
+      "y": 160.0
+    },
+    {
+      "id": "6",
+      "type": "advanced_scan",
+      "point_id": "6",
+      "prev_node_id": "5",
+      "next_node_id": "7",
+      "turntable": {
+        "start_angle": 360.0,
+        "end_angle": 0.0,
+        "scan_count": 6,
+        "speed": 50.0,
+        "acceleration": 50.0
+      },
+      "motion": {
+        "speed": 50.0,
+        "acceleration": 50.0
+      },
+      "x": 480.0,
+      "y": 160.0
+    },
+    {
+      "id": "7",
+      "type": "end",
+      "point_id": "0",
+      "prev_node_id": "6",
+      "turntable": {
+        "angle": 0.0,
+        "speed": 50.0,
+        "acceleration": 50.0,
+        "start_angle": 0.0,
+        "end_angle": 360.0
+      },
+      "motion": {
+        "speed": 50.0,
+        "acceleration": 50.0
+      },
+      "x": 700.0,
+      "y": 160.0
+    }
+  ],
+  "safe_route_ids": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "6"
+  ],
+  "safe_routes": [
+    [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      true
+    ]
+  ],
+  "per_point_exposure": false,
+  "per_point_marker_exposure": false
+}

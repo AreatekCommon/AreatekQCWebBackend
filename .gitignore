@@ -1,0 +1,73 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+secrets.*
+
+# Packaging and build artefacts
+build/
+dist/
+downloads/
+wheels/
+*.egg-info/
+.eggs/
+*.egg
+MANIFEST
+
+# Test, coverage, and cache files
+.pytest_cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+.cache/
+
+# Type checking, linting and formatting caches
+.mypy_cache/
+.pyre/
+.pytype/
+.ruff_cache/
+.dmypy.json
+dmypy.json
+.eslintcache
+
+# Logs and runtime files
+*.log
+logs/
+*.pid
+*.sqlite3-journal
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE and editors
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.iml
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini

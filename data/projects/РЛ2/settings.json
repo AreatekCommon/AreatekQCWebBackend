@@ -1,0 +1,121 @@
+{
+  "receiver_host": "0.0.0.0",
+  "receiver_port": 54610,
+  "sender_host": "192.168.0.5",
+  "sender_port": 54600,
+  "scanner_host": "127.0.0.1",
+  "scanner_port": 3001,
+  "robot_host": "192.168.0.5",
+  "robot_port": 54603,
+  "turntable_port": 54601,
+  "turntable_wire_format": "decimal_2",
+  "paths_folder": "C:/Users/Areatek/Desktop/AreatekQC/Server/data/Trajectories",
+  "active_path_file": "РЛ2.json",
+  "log_to_console": true,
+  "log_to_file": true,
+  "log_level": "INFO",
+  "log_file_path": "logs/application.log",
+  "sdk_log_enabled": true,
+  "sdk_log_dir": "logs/sdk",
+  "sdk_native_log_source": "",
+  "sdk_tcp_log_to_console": false,
+  "camera_stream_enabled": true,
+  "camera_stream_host": "127.0.0.1",
+  "camera_stream_port": 3002,
+  "camera_stream_fps": 10,
+  "poll_interval_ms": 1500,
+  "axis_forward_enabled": true,
+  "axis_forward_host": "192.168.40.154",
+  "axis_forward_port": 3400,
+  "pipeline": {
+    "import_markers": true,
+    "marker_framework_path": "C:\\Users\\Areatek\\Desktop\\AreatekQC\\Server\\data\\Markers\\РЛ2_Метки\\РЛ2_Метки.p3",
+    "scan_folder_watcher_enabled": true,
+    "scan_import_monitored_folder": "C:\\Users\\Areatek\\Desktop\\RTC Scans\\",
+    "error_turntable_delay_sec": 1.5,
+    "cycle_run_mode": "single_full",
+    "skip_failed_scans": false,
+    "calibration": {
+      "big_range": 0,
+      "factory_mode": 0,
+      "read_xml_mode": 0
+    }
+  },
+  "scanner": {
+    "process_path": "C:\\Program Files\\OptimScan Q\\Sn3DProcessManager.exe",
+    "project_root": "C:\\Shining Projects",
+    "export_root": "C:/Users/Areatek/Desktop/RTC Scans",
+    "project_name": {
+      "parts": [
+        {
+          "type": "text",
+          "value": "РЛ2"
+        },
+        {
+          "type": "timestamp",
+          "format": "DDMMYYYY"
+        },
+        {
+          "type": "text",
+          "value": "scan"
+        }
+      ]
+    },
+    "project_name_counter": 59,
+    "work_range": 1,
+    "need_limit": 2,
+    "save_type": "stl",
+    "run_global_opt": true,
+    "reapply_params_each_cycle": true,
+    "device": {
+      "rgb_level": 10,
+      "laser_switch": true,
+      "left_gain": 0.1,
+      "right_gain": 0.1,
+      "mask_enable": false,
+      "mask_val": 10,
+      "pre_marker": true
+    },
+    "exposure_settings": {
+      "mode": "first",
+      "customized_slots": "first",
+      "marker_exp": 4,
+      "val1": 6,
+      "val2": 25,
+      "val3": 34
+    },
+    "scan": {
+      "align_mod": 8,
+      "scan_markers": false,
+      "scan_point_cloud": true,
+      "add_global_markers": true,
+      "monocular_scan": false,
+      "resolution": 3,
+      "marker_radius": 4,
+      "scan_obj": 1,
+      "auto_cut_face": false
+    },
+    "exposure_range": {
+      "center_x": 1024,
+      "center_y": 750,
+      "radius": 100
+    },
+    "mesh": {
+      "mesh_type": 1,
+      "unwatertight_detail": 1,
+      "depth": 0,
+      "filter_level": 3,
+      "smooth_level": 2,
+      "remove_small": 6,
+      "max_face": false,
+      "face_limit": 20000000,
+      "fill_small_hole": true,
+      "small_hole_perimeter": 2,
+      "neighbourhood": 3,
+      "spike_sensitivity": true,
+      "fill_marker_hole": false,
+      "border_opt": true,
+      "need_thin_obj_mesh": false
+    }
+  }
+}

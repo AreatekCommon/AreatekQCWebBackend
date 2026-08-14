@@ -1,0 +1,229 @@
+{
+  "points": [
+    {
+      "id": "1",
+      "name": "Дом",
+      "axes": {
+        "J1": -0.00051,
+        "J2": -120.000092,
+        "J3": 120.00071,
+        "J4": 30.000792,
+        "J5": -89.999809,
+        "J6": -89.998276
+      }
+    },
+    {
+      "id": "2",
+      "name": "Верх",
+      "axes": {
+        "J1": -94.558533,
+        "J2": -78.755417,
+        "J3": 52.871769,
+        "J4": -50.579624,
+        "J5": -15.522925,
+        "J6": 64.697205
+      }
+    },
+    {
+      "id": "3",
+      "name": "Середина",
+      "axes": {
+        "J1": -52.391464,
+        "J2": -97.710091,
+        "J3": 122.991348,
+        "J4": 144.356003,
+        "J5": 34.942383,
+        "J6": -231.806061
+      }
+    },
+    {
+      "id": "4",
+      "name": "Низ",
+      "axes": {
+        "J1": -47.94696,
+        "J2": -32.790936,
+        "J3": 89.721603,
+        "J4": -72.9496,
+        "J5": 46.178539,
+        "J6": -38.599258
+      }
+    },
+    {
+      "id": "0",
+      "name": "Переход_дом_верх",
+      "axes": {
+        "J1": -61.240444,
+        "J2": -82.285164,
+        "J3": 80.048752,
+        "J4": -16.27969,
+        "J5": -64.302856,
+        "J6": 1.295586
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "id": "1",
+      "type": "home",
+      "point_id": "1",
+      "next_node_id": "2",
+      "x": 83.99999809265137,
+      "y": -146.0,
+      "turntable": {
+        "angle": 0.0,
+        "speed": 50.0,
+        "acceleration": 50.0
+      },
+      "motion": {
+        "speed": 50.0,
+        "acceleration": 50.0
+      }
+    },
+    {
+      "id": "2",
+      "type": "advanced_scan",
+      "point_id": "2",
+      "prev_node_id": "1",
+      "next_node_id": "3",
+      "x": 140.0,
+      "y": 100.0,
+      "turntable": {
+        "start_angle": 0.0,
+        "end_angle": 360.0,
+        "scan_count": 13,
+        "advanced_scan_mode": "range",
+        "speed": 50.0,
+        "acceleration": 50.0
+      },
+      "motion": {
+        "speed": 50.0,
+        "acceleration": 50.0
+      },
+      "exposure": {
+        "val1": 8,
+        "val2": 25,
+        "val3": 34,
+        "marker_exp": 4
+      }
+    },
+    {
+      "id": "3",
+      "type": "advanced_scan",
+      "point_id": "3",
+      "prev_node_id": "2",
+      "next_node_id": "4",
+      "x": 330.0,
+      "y": -136.0,
+      "turntable": {
+        "start_angle": 360.0,
+        "end_angle": 0.0,
+        "scan_count": 13,
+        "advanced_scan_mode": "range",
+        "speed": 50.0,
+        "acceleration": 50.0
+      },
+      "motion": {
+        "speed": 50.0,
+        "acceleration": 50.0
+      },
+      "exposure": {
+        "val1": 8,
+        "val2": 25,
+        "val3": 34,
+        "marker_exp": 4
+      }
+    },
+    {
+      "id": "4",
+      "type": "advanced_scan",
+      "point_id": "4",
+      "prev_node_id": "3",
+      "next_node_id": "5",
+      "x": 397.20629946429983,
+      "y": 107.58740107140024,
+      "turntable": {
+        "start_angle": 0.0,
+        "end_angle": 360.0,
+        "scan_count": 13,
+        "advanced_scan_mode": "range",
+        "speed": 50.0,
+        "acceleration": 50.0
+      },
+      "motion": {
+        "speed": 50.0,
+        "acceleration": 50.0
+      },
+      "exposure": {
+        "val1": 12,
+        "val2": 25,
+        "val3": 34,
+        "marker_exp": 4
+      }
+    },
+    {
+      "id": "5",
+      "type": "end",
+      "point_id": "1",
+      "prev_node_id": "4",
+      "x": 569.5969695021581,
+      "y": -132.13539053332048,
+      "turntable": {
+        "angle": 0.0,
+        "speed": 50.0,
+        "acceleration": 50.0
+      },
+      "motion": {
+        "speed": 50.0,
+        "acceleration": 50.0
+      }
+    }
+  ],
+  "safe_route_ids": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "0"
+  ],
+  "safe_routes": [
+    [
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true
+    ]
+  ],
+  "per_point_exposure": true,
+  "per_point_marker_exposure": false,
+  "uniform_advanced_scan_rotations": true,
+  "uniform_advanced_scan_count": 13
+}

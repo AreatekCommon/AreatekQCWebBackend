@@ -1,0 +1,814 @@
+{
+  "points": [
+    {
+      "id": "0",
+      "name": "1",
+      "axes": {
+        "J1": -57.87812,
+        "J2": -71.867981,
+        "J3": 56.823254,
+        "J4": -1.890638,
+        "J5": 104.574608,
+        "J6": -58.72739
+      }
+    },
+    {
+      "id": "1",
+      "name": "2",
+      "axes": {
+        "J1": -48.27853,
+        "J2": -55.859829,
+        "J3": 33.611721,
+        "J4": -2.019689,
+        "J5": 112.079979,
+        "J6": -49.40517
+      }
+    },
+    {
+      "id": "2",
+      "name": "3",
+      "axes": {
+        "J1": -50.188694,
+        "J2": -60.419956,
+        "J3": 40.676304,
+        "J4": -1.976833,
+        "J5": 109.514938,
+        "J6": -51.212006
+      }
+    },
+    {
+      "id": "3",
+      "name": "4",
+      "axes": {
+        "J1": -51.993248,
+        "J2": -63.840336,
+        "J3": 45.734379,
+        "J4": -1.949047,
+        "J5": 107.820343,
+        "J6": -52.95137
+      }
+    },
+    {
+      "id": "4",
+      "name": "5",
+      "axes": {
+        "J1": -53.807304,
+        "J2": -66.726936,
+        "J3": 49.842834,
+        "J4": -1.925038,
+        "J5": 106.540993,
+        "J6": -54.715183
+      }
+    },
+    {
+      "id": "5",
+      "name": "6",
+      "axes": {
+        "J1": -55.293766,
+        "J2": -68.788307,
+        "J3": 52.687412,
+        "J4": -1.906172,
+        "J5": 105.710831,
+        "J6": -56.167313
+      }
+    },
+    {
+      "id": "6",
+      "name": "7",
+      "axes": {
+        "J1": -57.139183,
+        "J2": -71.047615,
+        "J3": 55.721844,
+        "J4": -1.884356,
+        "J5": 104.877586,
+        "J6": -57.978539
+      }
+    },
+    {
+      "id": "7",
+      "name": "8",
+      "axes": {
+        "J1": -59.383614,
+        "J2": -73.433662,
+        "J3": 58.831448,
+        "J4": -1.858143,
+        "J5": 104.083656,
+        "J6": -60.189529
+      }
+    },
+    {
+      "id": "8",
+      "name": "9",
+      "axes": {
+        "J1": -61.465084,
+        "J2": -75.355042,
+        "J3": 61.265949,
+        "J4": -1.834562,
+        "J5": 103.505264,
+        "J6": -62.247616
+      }
+    },
+    {
+      "id": "9",
+      "name": "10",
+      "axes": {
+        "J1": -63.972672,
+        "J2": -77.36071,
+        "J3": 63.739372,
+        "J4": -1.80428,
+        "J5": 102.959442,
+        "J6": -64.731468
+      }
+    },
+    {
+      "id": "10",
+      "name": "11",
+      "axes": {
+        "J1": -66.609299,
+        "J2": -79.160774,
+        "J3": 65.899658,
+        "J4": -1.769336,
+        "J5": 102.518425,
+        "J6": -67.346001
+      }
+    },
+    {
+      "id": "11",
+      "name": "12",
+      "axes": {
+        "J1": -68.506828,
+        "J2": -80.285667,
+        "J3": 67.221329,
+        "J4": -1.742594,
+        "J5": 102.264168,
+        "J6": -69.229538
+      }
+    },
+    {
+      "id": "12",
+      "name": "13",
+      "axes": {
+        "J1": -47.578995,
+        "J2": -96.264038,
+        "J3": 83.724922,
+        "J4": -1.748262,
+        "J5": 101.87883,
+        "J6": -66.543793
+      }
+    },
+    {
+      "id": "13",
+      "name": "14",
+      "axes": {
+        "J1": -64.254013,
+        "J2": -55.420132,
+        "J3": 32.526058,
+        "J4": -1.937558,
+        "J5": 110.391045,
+        "J6": -47.508949
+      }
+    },
+    {
+      "id": "14",
+      "name": "15",
+      "axes": {
+        "J1": -55.038574,
+        "J2": -78.281303,
+        "J3": 63.595856,
+        "J4": -1.067136,
+        "J5": 104.364746,
+        "J6": -56.8694
+      }
+    },
+    {
+      "id": "17",
+      "name": "Дом",
+      "axes": {
+        "J1": 0.0,
+        "J2": -120.0,
+        "J3": 120.0,
+        "J4": 30.0,
+        "J5": -90.0,
+        "J6": -90.0
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "id": "0",
+      "type": "home",
+      "point_id": "17",
+      "next_node_id": "17",
+      "x": -36.195248628997476,
+      "y": 24.125989868958854,
+      "turntable": {
+        "angle": 0.0,
+        "speed": 50.0,
+        "acceleration": 50.0
+      },
+      "motion": {
+        "speed": 50.0,
+        "acceleration": 50.0
+      }
+    },
+    {
+      "id": "17",
+      "type": "basic_scan",
+      "point_id": "0",
+      "prev_node_id": "0",
+      "next_node_id": "1",
+      "x": 158.41259898689586,
+      "y": 40.86235424140203,
+      "turntable": {
+        "angle": 0.0,
+        "speed": 50.0,
+        "acceleration": 50.0
+      },
+      "motion": {
+        "speed": 50.0,
+        "acceleration": 50.0
+      }
+    },
+    {
+      "id": "1",
+      "type": "basic_scan",
+      "point_id": "1",
+      "prev_node_id": "17",
+      "next_node_id": "2",
+      "x": 328.2582435634769,
+      "y": 38.412598986895894,
+      "turntable": {
+        "angle": 0.0,
+        "speed": 50.0,
+        "acceleration": 50.0
+      },
+      "motion": {
+        "speed": 50.0,
+        "acceleration": 50.0
+      }
+    },
+    {
+      "id": "2",
+      "type": "basic_scan",
+      "point_id": "2",
+      "prev_node_id": "1",
+      "next_node_id": "3",
+      "x": 480.0,
+      "y": 40.0,
+      "turntable": {
+        "angle": 0.0,
+        "speed": 50.0,
+        "acceleration": 50.0
+      },
+      "motion": {
+        "speed": 50.0,
+        "acceleration": 50.0
+      }
+    },
+    {
+      "id": "3",
+      "type": "basic_scan",
+      "point_id": "3",
+      "prev_node_id": "2",
+      "next_node_id": "4",
+      "x": 700.0,
+      "y": 40.0,
+      "turntable": {
+        "angle": 0.0,
+        "speed": 50.0,
+        "acceleration": 50.0
+      },
+      "motion": {
+        "speed": 50.0,
+        "acceleration": 50.0
+      }
+    },
+    {
+      "id": "4",
+      "type": "basic_scan",
+      "point_id": "4",
+      "prev_node_id": "3",
+      "next_node_id": "5",
+      "x": 40.0,
+      "y": 160.0,
+      "turntable": {
+        "angle": 0.0,
+        "speed": 50.0,
+        "acceleration": 50.0
+      },
+      "motion": {
+        "speed": 50.0,
+        "acceleration": 50.0
+      }
+    },
+    {
+      "id": "5",
+      "type": "basic_scan",
+      "point_id": "5",
+      "prev_node_id": "4",
+      "next_node_id": "6",
+      "x": 260.0,
+      "y": 160.0,
+      "turntable": {
+        "angle": 0.0,
+        "speed": 50.0,
+        "acceleration": 50.0
+      },
+      "motion": {
+        "speed": 50.0,
+        "acceleration": 50.0
+      }
+    },
+    {
+      "id": "6",
+      "type": "basic_scan",
+      "point_id": "6",
+      "prev_node_id": "5",
+      "next_node_id": "7",
+      "x": 480.0,
+      "y": 160.0,
+      "turntable": {
+        "angle": 0.0,
+        "speed": 50.0,
+        "acceleration": 50.0
+      },
+      "motion": {
+        "speed": 50.0,
+        "acceleration": 50.0
+      }
+    },
+    {
+      "id": "7",
+      "type": "basic_scan",
+      "point_id": "7",
+      "prev_node_id": "6",
+      "next_node_id": "8",
+      "x": 700.0,
+      "y": 160.0,
+      "turntable": {
+        "angle": 0.0,
+        "speed": 50.0,
+        "acceleration": 50.0
+      },
+      "motion": {
+        "speed": 50.0,
+        "acceleration": 50.0
+      }
+    },
+    {
+      "id": "8",
+      "type": "basic_scan",
+      "point_id": "8",
+      "prev_node_id": "7",
+      "next_node_id": "9",
+      "x": 40.0,
+      "y": 280.0,
+      "turntable": {
+        "angle": 0.0,
+        "speed": 50.0,
+        "acceleration": 50.0
+      },
+      "motion": {
+        "speed": 50.0,
+        "acceleration": 50.0
+      }
+    },
+    {
+      "id": "9",
+      "type": "basic_scan",
+      "point_id": "9",
+      "prev_node_id": "8",
+      "next_node_id": "10",
+      "x": 260.0,
+      "y": 280.0,
+      "turntable": {
+        "angle": 0.0,
+        "speed": 50.0,
+        "acceleration": 50.0
+      },
+      "motion": {
+        "speed": 50.0,
+        "acceleration": 50.0
+      }
+    },
+    {
+      "id": "10",
+      "type": "basic_scan",
+      "point_id": "10",
+      "prev_node_id": "9",
+      "next_node_id": "11",
+      "x": 480.0,
+      "y": 280.0,
+      "turntable": {
+        "angle": 0.0,
+        "speed": 50.0,
+        "acceleration": 50.0
+      },
+      "motion": {
+        "speed": 50.0,
+        "acceleration": 50.0
+      }
+    },
+    {
+      "id": "11",
+      "type": "basic_scan",
+      "point_id": "11",
+      "prev_node_id": "10",
+      "next_node_id": "12",
+      "x": 700.0,
+      "y": 280.0,
+      "turntable": {
+        "angle": 0.0,
+        "speed": 50.0,
+        "acceleration": 50.0
+      },
+      "motion": {
+        "speed": 50.0,
+        "acceleration": 50.0
+      }
+    },
+    {
+      "id": "12",
+      "type": "basic_scan",
+      "point_id": "12",
+      "prev_node_id": "11",
+      "next_node_id": "13",
+      "x": 40.0,
+      "y": 400.0,
+      "turntable": {
+        "angle": 0.0,
+        "speed": 50.0,
+        "acceleration": 50.0
+      },
+      "motion": {
+        "speed": 50.0,
+        "acceleration": 50.0
+      }
+    },
+    {
+      "id": "13",
+      "type": "basic_scan",
+      "point_id": "13",
+      "prev_node_id": "12",
+      "next_node_id": "14",
+      "x": 260.0,
+      "y": 400.0,
+      "turntable": {
+        "angle": 0.0,
+        "speed": 50.0,
+        "acceleration": 50.0
+      },
+      "motion": {
+        "speed": 50.0,
+        "acceleration": 50.0
+      }
+    },
+    {
+      "id": "14",
+      "type": "basic_scan",
+      "point_id": "14",
+      "prev_node_id": "13",
+      "next_node_id": "16",
+      "x": 480.0,
+      "y": 400.0,
+      "turntable": {
+        "angle": 0.0,
+        "speed": 50.0,
+        "acceleration": 50.0
+      },
+      "motion": {
+        "speed": 50.0,
+        "acceleration": 50.0
+      }
+    },
+    {
+      "id": "16",
+      "type": "end",
+      "point_id": "17",
+      "prev_node_id": "14",
+      "x": 723.3825286620239,
+      "y": 410.31800725926786,
+      "turntable": {
+        "angle": 0.0,
+        "speed": 50.0,
+        "acceleration": 50.0
+      },
+      "motion": {
+        "speed": 50.0,
+        "acceleration": 50.0
+      }
+    }
+  ],
+  "safe_route_ids": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "17"
+  ],
+  "safe_routes": [
+    [
+      true,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true
+    ]
+  ],
+  "per_point_exposure": false,
+  "per_point_marker_exposure": false,
+  "uniform_advanced_scan_rotations": false,
+  "uniform_advanced_scan_count": null
+}

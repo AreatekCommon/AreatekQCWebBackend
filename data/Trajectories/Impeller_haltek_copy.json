@@ -1,0 +1,86 @@
+{
+  "positions": [
+    {
+      "id": "0",
+      "type": "home",
+      "comment": "Дом",
+      "axes": {
+        "J1": -37.18,
+        "J2": -92.139999,
+        "J3": 99.300003,
+        "J4": -0.45,
+        "J5": 82.5,
+        "J6": -104.25
+      },
+      "turntable": {
+        "angle": 0.0,
+        "speed": 50.0,
+        "acceleration": 50.0
+      },
+      "motion": {
+        "speed": 50.0,
+        "acceleration": 50.0
+      }
+    },
+    {
+      "id": "3",
+      "type": "advanced_scan",
+      "comment": "Верх",
+      "axes": {
+        "J1": -58.729961,
+        "J2": -90.570107,
+        "J3": 87.013519,
+        "J4": 7.6,
+        "J5": -33.15,
+        "J6": -51.33
+      },
+      "turntable": {
+        "start_angle": 360.0,
+        "end_angle": 0.0,
+        "scan_count": 24,
+        "speed": 50.0,
+        "acceleration": 50.0
+      },
+      "motion": {
+        "speed": 50.0,
+        "acceleration": 50.0
+      }
+    },
+    {
+      "id": "0",
+      "type": "end",
+      "comment": "Дом",
+      "axes": {
+        "J1": -37.18,
+        "J2": -92.139999,
+        "J3": 99.300003,
+        "J4": -0.45,
+        "J5": 82.5,
+        "J6": -104.25
+      },
+      "turntable": {
+        "angle": 0.0,
+        "speed": 50.0,
+        "acceleration": 50.0
+      },
+      "motion": {
+        "speed": 50.0,
+        "acceleration": 50.0
+      }
+    }
+  ],
+  "safe_route_ids": [
+    "0",
+    "3"
+  ],
+  "safe_routes": [
+    [
+      true,
+      true
+    ],
+    [
+      true,
+      true
+    ]
+  ]
+}

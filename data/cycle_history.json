@@ -1,0 +1,628 @@
+{
+  "entries": [
+    {
+      "started_at": "2026-08-04T10:23:04.554643Z",
+      "mesh_export_finished_at": "2026-08-04T10:26:45.624336Z",
+      "duration_sec": 221.069693,
+      "project_name": "Brake_20260804_132304"
+    },
+    {
+      "started_at": "2026-08-04T10:26:52.682183Z",
+      "mesh_export_finished_at": "2026-08-04T10:30:40.364899Z",
+      "duration_sec": 227.682716,
+      "project_name": "Brake_20260804_132650"
+    },
+    {
+      "started_at": "2026-08-04T10:30:44.470837Z",
+      "mesh_export_finished_at": "2026-08-04T10:34:31.075137Z",
+      "duration_sec": 226.6043,
+      "project_name": "Brake_20260804_133042"
+    },
+    {
+      "started_at": "2026-08-04T10:34:36.859306Z",
+      "mesh_export_finished_at": "2026-08-04T10:38:16.830127Z",
+      "duration_sec": 219.970821,
+      "project_name": "Brake_20260804_133435"
+    },
+    {
+      "started_at": "2026-08-04T10:38:28.245834Z",
+      "mesh_export_finished_at": "2026-08-04T10:42:09.407598Z",
+      "duration_sec": 221.161764,
+      "project_name": "Brake_20260804_133826"
+    },
+    {
+      "started_at": "2026-08-04T10:42:22.129162Z",
+      "mesh_export_finished_at": "2026-08-04T10:46:01.745639Z",
+      "duration_sec": 219.616477,
+      "project_name": "Brake_20260804_134220"
+    },
+    {
+      "started_at": "2026-08-04T10:46:13.455650Z",
+      "mesh_export_finished_at": "2026-08-04T10:49:55.381134Z",
+      "duration_sec": 221.925484,
+      "project_name": "Brake_20260804_134611"
+    },
+    {
+      "started_at": "2026-08-04T10:50:06.672269Z",
+      "mesh_export_finished_at": "2026-08-04T10:53:52.438313Z",
+      "duration_sec": 225.766044,
+      "project_name": "Brake_20260804_135005"
+    },
+    {
+      "started_at": "2026-08-04T14:47:56.400105Z",
+      "mesh_export_finished_at": null,
+      "duration_sec": null,
+      "project_name": "Brake_20260804_174756"
+    },
+    {
+      "started_at": "2026-08-05T06:42:18.817347Z",
+      "mesh_export_finished_at": null,
+      "duration_sec": null,
+      "project_name": "Brake_20260805_094218"
+    },
+    {
+      "started_at": "2026-08-05T10:53:07.930876Z",
+      "mesh_export_finished_at": null,
+      "duration_sec": null,
+      "project_name": "Blisk_20260805_135307"
+    },
+    {
+      "started_at": "2026-08-05T11:08:46.593310Z",
+      "mesh_export_finished_at": "2026-08-05T11:16:18.677948Z",
+      "duration_sec": 452.084638,
+      "project_name": "Blisk_20260805_140846"
+    },
+    {
+      "started_at": "2026-08-05T11:16:20.550188Z",
+      "mesh_export_finished_at": "2026-08-05T11:23:35.556569Z",
+      "duration_sec": 435.006381,
+      "project_name": "Blisk_20260805_141618"
+    },
+    {
+      "started_at": "2026-08-05T11:23:37.425851Z",
+      "mesh_export_finished_at": "2026-08-05T11:30:51.488185Z",
+      "duration_sec": 434.062334,
+      "project_name": "Blisk_20260805_142335"
+    },
+    {
+      "started_at": "2026-08-05T11:30:53.374437Z",
+      "mesh_export_finished_at": "2026-08-05T11:38:08.777572Z",
+      "duration_sec": 435.403135,
+      "project_name": "Blisk_20260805_143051"
+    },
+    {
+      "started_at": "2026-08-05T11:38:10.649523Z",
+      "mesh_export_finished_at": "2026-08-05T11:45:28.001552Z",
+      "duration_sec": 437.352029,
+      "project_name": "Blisk_20260805_143808"
+    },
+    {
+      "started_at": "2026-08-05T11:45:29.887313Z",
+      "mesh_export_finished_at": "2026-08-05T11:52:46.789748Z",
+      "duration_sec": 436.902435,
+      "project_name": "Blisk_20260805_144528"
+    },
+    {
+      "started_at": "2026-08-05T11:52:48.662497Z",
+      "mesh_export_finished_at": "2026-08-05T12:00:07.143294Z",
+      "duration_sec": 438.480797,
+      "project_name": "Blisk_20260805_145246"
+    },
+    {
+      "started_at": "2026-08-05T12:00:09.028171Z",
+      "mesh_export_finished_at": "2026-08-05T12:07:25.580122Z",
+      "duration_sec": 436.551951,
+      "project_name": "Blisk_20260805_150007"
+    },
+    {
+      "started_at": "2026-08-05T12:07:27.473263Z",
+      "mesh_export_finished_at": "2026-08-05T12:14:44.649217Z",
+      "duration_sec": 437.175954,
+      "project_name": "Blisk_20260805_150725"
+    },
+    {
+      "started_at": "2026-08-05T12:56:44.321682Z",
+      "mesh_export_finished_at": null,
+      "duration_sec": 192.515441,
+      "project_name": "Brake_20260805_155644"
+    },
+    {
+      "started_at": "2026-08-05T13:16:14.792523Z",
+      "mesh_export_finished_at": "2026-08-05T13:18:50.167414Z",
+      "duration_sec": 155.374891,
+      "project_name": "Brake_20260805_161614"
+    },
+    {
+      "started_at": "2026-08-05T13:41:57.182689Z",
+      "mesh_export_finished_at": "2026-08-05T13:44:33.767295Z",
+      "duration_sec": 156.584606,
+      "project_name": "Brake_20260805_164157"
+    },
+    {
+      "started_at": "2026-08-05T13:54:01.427759Z",
+      "mesh_export_finished_at": "2026-08-05T13:56:29.649494Z",
+      "duration_sec": 148.221735,
+      "project_name": "Brake_2_scan"
+    },
+    {
+      "started_at": "2026-08-05T14:13:29.658564Z",
+      "mesh_export_finished_at": "2026-08-05T14:15:56.941523Z",
+      "duration_sec": 147.282959,
+      "project_name": "Brake_3_scan"
+    },
+    {
+      "started_at": "2026-08-06T06:16:16.676232Z",
+      "mesh_export_finished_at": "2026-08-06T06:19:18.449169Z",
+      "duration_sec": 181.772937,
+      "project_name": "Brake_4_scan"
+    },
+    {
+      "started_at": "2026-08-06T07:51:16.189780Z",
+      "mesh_export_finished_at": "2026-08-06T07:54:35.225726Z",
+      "duration_sec": 199.035946,
+      "project_name": "Brake_7_scan"
+    },
+    {
+      "started_at": "2026-08-06T07:54:36.886230Z",
+      "mesh_export_finished_at": "2026-08-06T07:57:17.802789Z",
+      "duration_sec": 160.916559,
+      "project_name": "Brake_8_scan"
+    },
+    {
+      "started_at": "2026-08-06T07:57:19.473061Z",
+      "mesh_export_finished_at": "2026-08-06T08:04:28.980633Z",
+      "duration_sec": 429.507572,
+      "project_name": "Brake_9_scan"
+    },
+    {
+      "started_at": "2026-08-06T08:04:30.655540Z",
+      "mesh_export_finished_at": "2026-08-06T08:07:16.670265Z",
+      "duration_sec": 166.014725,
+      "project_name": "Brake_10_scan"
+    },
+    {
+      "started_at": "2026-08-06T08:07:18.346178Z",
+      "mesh_export_finished_at": "2026-08-06T08:10:15.015331Z",
+      "duration_sec": 176.669153,
+      "project_name": "Brake_11_scan"
+    },
+    {
+      "started_at": "2026-08-06T08:10:16.720272Z",
+      "mesh_export_finished_at": "2026-08-06T08:12:57.626221Z",
+      "duration_sec": 160.905949,
+      "project_name": "Brake_12_scan"
+    },
+    {
+      "started_at": "2026-08-06T08:12:59.314921Z",
+      "mesh_export_finished_at": "2026-08-06T08:15:49.064656Z",
+      "duration_sec": 169.749735,
+      "project_name": "Brake_13_scan"
+    },
+    {
+      "started_at": "2026-08-06T08:15:50.755077Z",
+      "mesh_export_finished_at": "2026-08-06T08:18:35.084459Z",
+      "duration_sec": 164.329382,
+      "project_name": "Brake_14_scan"
+    },
+    {
+      "started_at": "2026-08-06T08:18:36.736721Z",
+      "mesh_export_finished_at": "2026-08-06T08:21:23.572878Z",
+      "duration_sec": 166.836157,
+      "project_name": "Brake_15_scan"
+    },
+    {
+      "started_at": "2026-08-06T08:21:25.271917Z",
+      "mesh_export_finished_at": "2026-08-06T08:24:17.968802Z",
+      "duration_sec": 172.696885,
+      "project_name": "Brake_16_scan"
+    },
+    {
+      "started_at": "2026-08-06T08:24:19.658120Z",
+      "mesh_export_finished_at": "2026-08-06T08:27:10.455326Z",
+      "duration_sec": 170.797206,
+      "project_name": "Brake_17_scan"
+    },
+    {
+      "started_at": "2026-08-06T08:27:12.138325Z",
+      "mesh_export_finished_at": "2026-08-06T08:29:55.246829Z",
+      "duration_sec": 163.108504,
+      "project_name": "Brake_18_scan"
+    },
+    {
+      "started_at": "2026-08-06T08:56:15.661115Z",
+      "mesh_export_finished_at": "2026-08-06T08:59:08.781507Z",
+      "duration_sec": 173.120392,
+      "project_name": "Brake_20_scan"
+    },
+    {
+      "started_at": "2026-08-06T08:59:10.649166Z",
+      "mesh_export_finished_at": "2026-08-06T09:02:02.563624Z",
+      "duration_sec": 171.914458,
+      "project_name": "Brake_21_scan"
+    },
+    {
+      "started_at": "2026-08-06T12:35:52.217877Z",
+      "mesh_export_finished_at": null,
+      "duration_sec": 1191.177999,
+      "project_name": "Impeller_26_scan"
+    },
+    {
+      "started_at": "2026-08-06T13:14:33.606599Z",
+      "mesh_export_finished_at": null,
+      "duration_sec": 497.284621,
+      "project_name": "Impeller_30_scan"
+    },
+    {
+      "started_at": "2026-08-06T13:35:07.045668Z",
+      "mesh_export_finished_at": null,
+      "duration_sec": 90.347332,
+      "project_name": "Impeller_32_scan"
+    },
+    {
+      "started_at": "2026-08-06T13:40:07.929441Z",
+      "mesh_export_finished_at": null,
+      "duration_sec": 79.588899,
+      "project_name": "Impeller_33_scan"
+    },
+    {
+      "started_at": "2026-08-06T13:51:52.153959Z",
+      "mesh_export_finished_at": null,
+      "duration_sec": 70.553857,
+      "project_name": "Impeller_35_scan"
+    },
+    {
+      "started_at": "2026-08-07T09:34:00.694743Z",
+      "mesh_export_finished_at": null,
+      "duration_sec": 128.820186,
+      "project_name": "Impeller_37_scan"
+    },
+    {
+      "started_at": "2026-08-07T12:48:07.326162Z",
+      "mesh_export_finished_at": null,
+      "duration_sec": 137.776506,
+      "project_name": "Impeller_39_scan"
+    },
+    {
+      "started_at": "2026-08-07T12:53:22.138007Z",
+      "mesh_export_finished_at": null,
+      "duration_sec": 185.982976,
+      "project_name": "Impeller_40_scan"
+    },
+    {
+      "started_at": "2026-08-07T13:21:38.765066Z",
+      "mesh_export_finished_at": null,
+      "duration_sec": 201.071629,
+      "project_name": "Impeller_42_scan"
+    },
+    {
+      "started_at": "2026-08-07T13:58:08.505661Z",
+      "mesh_export_finished_at": null,
+      "duration_sec": 156.923508,
+      "project_name": "Impeller_43_scan"
+    },
+    {
+      "started_at": "2026-08-10T12:13:39.549836Z",
+      "mesh_export_finished_at": null,
+      "duration_sec": 169.740091,
+      "project_name": "Impeller_46_scan"
+    },
+    {
+      "started_at": "2026-08-10T12:50:21.830716Z",
+      "mesh_export_finished_at": "2026-08-10T12:54:05.042805Z",
+      "duration_sec": 223.212089,
+      "project_name": "Impeller_48_scan"
+    },
+    {
+      "started_at": "2026-08-10T13:02:45.910046Z",
+      "mesh_export_finished_at": "2026-08-10T13:07:23.361003Z",
+      "duration_sec": 277.450957,
+      "project_name": "Impeller_49_scan"
+    },
+    {
+      "started_at": "2026-08-10T13:08:50.207415Z",
+      "mesh_export_finished_at": "2026-08-10T13:14:25.167684Z",
+      "duration_sec": 334.960269,
+      "project_name": "Impeller_50_scan"
+    },
+    {
+      "started_at": "2026-08-10T13:16:23.573885Z",
+      "mesh_export_finished_at": "2026-08-10T13:22:15.541448Z",
+      "duration_sec": 351.967563,
+      "project_name": "Impeller_51_scan"
+    },
+    {
+      "started_at": "2026-08-10T13:36:35.041235Z",
+      "mesh_export_finished_at": "2026-08-10T13:43:17.384767Z",
+      "duration_sec": 402.343532,
+      "project_name": "Impeller_53_scan"
+    },
+    {
+      "started_at": "2026-08-10T13:46:45.629988Z",
+      "mesh_export_finished_at": "2026-08-10T13:52:39.750261Z",
+      "duration_sec": 354.120273,
+      "project_name": "Impeller_56_scan"
+    },
+    {
+      "started_at": "2026-08-11T07:50:58.669850Z",
+      "mesh_export_finished_at": "2026-08-11T07:53:49.917050Z",
+      "duration_sec": 171.2472,
+      "project_name": "Impeller_58_scan"
+    },
+    {
+      "started_at": "2026-08-11T08:10:59.915631Z",
+      "mesh_export_finished_at": "2026-08-11T08:14:41.788401Z",
+      "duration_sec": 221.87277,
+      "project_name": "Штуцер"
+    },
+    {
+      "started_at": "2026-08-11T08:21:46.969103Z",
+      "mesh_export_finished_at": "2026-08-11T08:25:33.530791Z",
+      "duration_sec": 226.561688,
+      "project_name": "Штуцер"
+    },
+    {
+      "started_at": "2026-08-11T08:37:55.936963Z",
+      "mesh_export_finished_at": "2026-08-11T08:42:28.847123Z",
+      "duration_sec": 272.91016,
+      "project_name": "Штуцер"
+    },
+    {
+      "started_at": "2026-08-11T09:37:35.114821Z",
+      "mesh_export_finished_at": "2026-08-11T09:41:44.857927Z",
+      "duration_sec": 249.743106,
+      "project_name": "Штуцер"
+    },
+    {
+      "started_at": "2026-08-11T10:23:41.221465Z",
+      "mesh_export_finished_at": null,
+      "duration_sec": 157.408235,
+      "project_name": "Крышка_20260811_132341"
+    },
+    {
+      "started_at": "2026-08-11T10:41:15.621136Z",
+      "mesh_export_finished_at": null,
+      "duration_sec": 123.422478,
+      "project_name": "Крышка_20260811_134115"
+    },
+    {
+      "started_at": "2026-08-11T10:45:36.448964Z",
+      "mesh_export_finished_at": "2026-08-11T10:48:12.910054Z",
+      "duration_sec": 156.46109,
+      "project_name": "Крышка_20260811_134536"
+    },
+    {
+      "started_at": "2026-08-11T10:52:23.660955Z",
+      "mesh_export_finished_at": "2026-08-11T10:55:00.126338Z",
+      "duration_sec": 156.465383,
+      "project_name": "Крышка_20260811_135223"
+    },
+    {
+      "started_at": "2026-08-11T12:23:06.850486Z",
+      "mesh_export_finished_at": "2026-08-11T12:25:43.680522Z",
+      "duration_sec": 156.830036,
+      "project_name": "Метки_мелкая_оснастка"
+    },
+    {
+      "started_at": "2026-08-11T12:29:03.641564Z",
+      "mesh_export_finished_at": "2026-08-11T12:32:15.266098Z",
+      "duration_sec": 191.624534,
+      "project_name": "Штуцер_20260811_152903"
+    },
+    {
+      "started_at": "2026-08-11T12:38:16.463524Z",
+      "mesh_export_finished_at": "2026-08-11T12:41:55.942535Z",
+      "duration_sec": 219.479011,
+      "project_name": "Штуцер_20260811_153816"
+    },
+    {
+      "started_at": "2026-08-11T12:51:11.903125Z",
+      "mesh_export_finished_at": "2026-08-11T12:54:36.934520Z",
+      "duration_sec": 205.031395,
+      "project_name": "Штуцер_20260811_155111"
+    },
+    {
+      "started_at": "2026-08-11T12:59:26.772849Z",
+      "mesh_export_finished_at": "2026-08-11T13:03:51.104793Z",
+      "duration_sec": 264.331944,
+      "project_name": "Штуцер_20260811_155926"
+    },
+    {
+      "started_at": "2026-08-11T15:41:22.726504Z",
+      "mesh_export_finished_at": "2026-08-11T15:46:23.117914Z",
+      "duration_sec": 300.39141,
+      "project_name": "Штуцер_20260811_184122"
+    },
+    {
+      "started_at": "2026-08-11T15:48:04.071998Z",
+      "mesh_export_finished_at": "2026-08-11T15:53:01.031221Z",
+      "duration_sec": 296.959223,
+      "project_name": "Fitting_20260811_scan"
+    },
+    {
+      "started_at": "2026-08-11T15:57:08.061840Z",
+      "mesh_export_finished_at": "2026-08-11T16:02:01.544074Z",
+      "duration_sec": 293.482234,
+      "project_name": "Fitting_20260811_scan"
+    },
+    {
+      "started_at": "2026-08-12T07:35:32.978338Z",
+      "mesh_export_finished_at": "2026-08-12T07:39:02.338568Z",
+      "duration_sec": 209.36023,
+      "project_name": "Fitting_20260812_scan"
+    },
+    {
+      "started_at": "2026-08-12T07:40:04.852769Z",
+      "mesh_export_finished_at": "2026-08-12T07:44:12.934488Z",
+      "duration_sec": 248.081719,
+      "project_name": "Fitting_60_scan"
+    },
+    {
+      "started_at": "2026-08-12T08:46:33.994913Z",
+      "mesh_export_finished_at": "2026-08-12T08:52:54.437745Z",
+      "duration_sec": 380.442832,
+      "project_name": "Cap_59_scan"
+    },
+    {
+      "started_at": "2026-08-12T08:54:56.965833Z",
+      "mesh_export_finished_at": "2026-08-12T09:00:38.028893Z",
+      "duration_sec": 341.06306,
+      "project_name": "Cap_59_scan"
+    },
+    {
+      "started_at": "2026-08-12T09:10:36.898897Z",
+      "mesh_export_finished_at": "2026-08-12T09:18:09.003469Z",
+      "duration_sec": 452.104572,
+      "project_name": "Cap_12082026_scan"
+    },
+    {
+      "started_at": "2026-08-12T10:50:08.444417Z",
+      "mesh_export_finished_at": "2026-08-12T11:03:51.987753Z",
+      "duration_sec": 823.543336,
+      "project_name": "РЛ2_12082026_scan"
+    },
+    {
+      "started_at": "2026-08-12T11:23:31.200678Z",
+      "mesh_export_finished_at": "2026-08-12T11:29:25.861642Z",
+      "duration_sec": 354.660964,
+      "project_name": "РЛ2_12082026_scan"
+    },
+    {
+      "started_at": "2026-08-12T11:35:16.422780Z",
+      "mesh_export_finished_at": "2026-08-12T11:41:09.594895Z",
+      "duration_sec": 353.172115,
+      "project_name": "РЛ2_12082026_scan"
+    },
+    {
+      "started_at": "2026-08-12T11:52:33.950991Z",
+      "mesh_export_finished_at": "2026-08-12T11:59:31.156127Z",
+      "duration_sec": 417.205136,
+      "project_name": "РЛ2_12082026_scan"
+    },
+    {
+      "started_at": "2026-08-12T12:12:48.750737Z",
+      "mesh_export_finished_at": "2026-08-12T12:18:56.840029Z",
+      "duration_sec": 368.089292,
+      "project_name": "РЛ2_12082026_scan"
+    },
+    {
+      "started_at": "2026-08-12T12:55:56.484826Z",
+      "mesh_export_finished_at": "2026-08-12T13:02:53.302939Z",
+      "duration_sec": 416.818113,
+      "project_name": "РЛ2_12082026_scan"
+    },
+    {
+      "started_at": "2026-08-12T13:21:40.371023Z",
+      "mesh_export_finished_at": "2026-08-12T13:28:18.515683Z",
+      "duration_sec": 398.14466,
+      "project_name": "РЛ2_12082026_scan"
+    },
+    {
+      "started_at": "2026-08-12T13:29:58.383039Z",
+      "mesh_export_finished_at": "2026-08-12T13:32:32.516613Z",
+      "duration_sec": 154.133574,
+      "project_name": "РЛ2_12082026_scan"
+    },
+    {
+      "started_at": "2026-08-12T13:37:25.843155Z",
+      "mesh_export_finished_at": "2026-08-12T13:40:03.896586Z",
+      "duration_sec": 158.053431,
+      "project_name": "РЛ2_Метки"
+    },
+    {
+      "started_at": "2026-08-12T13:45:22.792950Z",
+      "mesh_export_finished_at": "2026-08-12T13:47:48.525333Z",
+      "duration_sec": 145.732383,
+      "project_name": "КМД_50"
+    },
+    {
+      "started_at": "2026-08-12T15:46:47.403871Z",
+      "mesh_export_finished_at": "2026-08-12T15:56:46.081958Z",
+      "duration_sec": 598.678087,
+      "project_name": "РЛ2_12082026_scan"
+    },
+    {
+      "started_at": "2026-08-13T07:03:25.244762Z",
+      "mesh_export_finished_at": "2026-08-13T07:12:33.255777Z",
+      "duration_sec": 548.011015,
+      "project_name": "РЛ2_13082026_scan"
+    },
+    {
+      "started_at": "2026-08-13T07:19:30.647614Z",
+      "mesh_export_finished_at": "2026-08-13T07:26:44.564166Z",
+      "duration_sec": 433.916552,
+      "project_name": "РЛ2_13082026_scan"
+    },
+    {
+      "started_at": "2026-08-13T07:30:38.052303Z",
+      "mesh_export_finished_at": "2026-08-13T07:38:57.871064Z",
+      "duration_sec": 499.818761,
+      "project_name": "РЛ2_13082026_scan"
+    },
+    {
+      "started_at": "2026-08-13T10:26:59.882535Z",
+      "mesh_export_finished_at": "2026-08-13T10:44:05.709693Z",
+      "duration_sec": 1025.827158,
+      "project_name": "РЛ2_13082026_scan"
+    },
+    {
+      "started_at": "2026-08-13T10:55:31.196922Z",
+      "mesh_export_finished_at": "2026-08-13T11:00:42.665423Z",
+      "duration_sec": 311.468501,
+      "project_name": "РЛ2_13082026_scan"
+    },
+    {
+      "started_at": "2026-08-13T11:04:06.137114Z",
+      "mesh_export_finished_at": "2026-08-13T11:09:47.820933Z",
+      "duration_sec": 341.683819,
+      "project_name": "РЛ2_13082026_scan"
+    },
+    {
+      "started_at": "2026-08-13T11:10:56.761175Z",
+      "mesh_export_finished_at": "2026-08-13T11:16:18.845856Z",
+      "duration_sec": 322.084681,
+      "project_name": "Отливка_20260813_141056_scan"
+    },
+    {
+      "started_at": "2026-08-13T11:23:21.003556Z",
+      "mesh_export_finished_at": "2026-08-13T11:31:06.093748Z",
+      "duration_sec": 465.090192,
+      "project_name": "Отливка_20260813_142321_scan"
+    },
+    {
+      "started_at": "2026-08-13T13:04:20.685802Z",
+      "mesh_export_finished_at": "2026-08-13T13:10:02.810825Z",
+      "duration_sec": 342.125023,
+      "project_name": "Отливка_20260813_160420_scan"
+    },
+    {
+      "started_at": "2026-08-13T13:10:04.666253Z",
+      "mesh_export_finished_at": "2026-08-13T13:15:33.872259Z",
+      "duration_sec": 329.206006,
+      "project_name": "Отливка_20260813_161002_scan"
+    },
+    {
+      "started_at": "2026-08-13T13:15:35.735260Z",
+      "mesh_export_finished_at": "2026-08-13T13:20:57.349801Z",
+      "duration_sec": 321.614541,
+      "project_name": "Отливка_20260813_161533_scan"
+    },
+    {
+      "started_at": "2026-08-13T13:20:59.232525Z",
+      "mesh_export_finished_at": "2026-08-13T13:26:29.267772Z",
+      "duration_sec": 330.035247,
+      "project_name": "Отливка_20260813_162057_scan"
+    },
+    {
+      "started_at": "2026-08-13T13:26:31.167002Z",
+      "mesh_export_finished_at": "2026-08-13T13:32:06.121644Z",
+      "duration_sec": 334.954642,
+      "project_name": "Отливка_20260813_162629_scan"
+    },
+    {
+      "started_at": "2026-08-13T13:32:08.035516Z",
+      "mesh_export_finished_at": "2026-08-13T13:37:39.979670Z",
+      "duration_sec": 331.944154,
+      "project_name": "Отливка_20260813_163206_scan"
+    }
+  ]
+}

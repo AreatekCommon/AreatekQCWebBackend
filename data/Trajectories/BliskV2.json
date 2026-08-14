@@ -1,0 +1,284 @@
+{
+  "points": [
+    {
+      "id": "0",
+      "name": "Дом",
+      "axes": {
+        "J1": 0.0,
+        "J2": -120.0,
+        "J3": 120.0,
+        "J4": 30.0,
+        "J5": -90.0,
+        "J6": -90.0
+      }
+    },
+    {
+      "id": "1",
+      "name": "Верх",
+      "axes": {
+        "J1": -46.977398,
+        "J2": -79.059929,
+        "J3": 94.673866,
+        "J4": 33.43494,
+        "J5": -79.038773,
+        "J6": -67.379959
+      }
+    },
+    {
+      "id": "3",
+      "name": "Середина",
+      "axes": {
+        "J1": -44.042164,
+        "J2": -81.254822,
+        "J3": 102.275581,
+        "J4": 0.516585,
+        "J5": 75.033501,
+        "J6": -116.346397
+      }
+    },
+    {
+      "id": "4",
+      "name": "Низ",
+      "axes": {
+        "J1": -41.315559,
+        "J2": -42.596268,
+        "J3": 97.327896,
+        "J4": -45.592136,
+        "J5": 39.547604,
+        "J6": -60.46315
+      }
+    },
+    {
+      "id": "2",
+      "name": "Верх-середина",
+      "axes": {
+        "J1": -59.112957,
+        "J2": -89.86998,
+        "J3": 99.665726,
+        "J4": 27.279453,
+        "J5": -67.219948,
+        "J6": -60.68819
+      }
+    },
+    {
+      "id": "5",
+      "name": "Межлопатье",
+      "axes": {
+        "J1": -100.698349,
+        "J2": -60.790615,
+        "J3": 35.194077,
+        "J4": -82.451683,
+        "J5": -42.578793,
+        "J6": 102.65287
+      }
+    },
+    {
+      "id": "6",
+      "name": "Переходмежлопатье",
+      "axes": {
+        "J1": -82.197815,
+        "J2": -72.41011,
+        "J3": 73.646004,
+        "J4": 4.516687,
+        "J5": -61.890568,
+        "J6": -8.921274
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "id": "0",
+      "type": "home",
+      "point_id": "0",
+      "next_node_id": "5",
+      "x": 40.0,
+      "y": 40.0,
+      "turntable": {
+        "angle": 0.0,
+        "speed": 50.0,
+        "acceleration": 50.0
+      },
+      "motion": {
+        "speed": 50.0,
+        "acceleration": 50.0
+      }
+    },
+    {
+      "id": "5",
+      "type": "advanced_scan",
+      "point_id": "5",
+      "prev_node_id": "0",
+      "next_node_id": "1",
+      "x": 263.13649328780116,
+      "y": -92.0969138724916,
+      "turntable": {
+        "start_angle": 0.0,
+        "end_angle": 360.0,
+        "scan_count": 10,
+        "advanced_scan_mode": "range",
+        "speed": 50.0,
+        "acceleration": 50.0
+      },
+      "motion": {
+        "speed": 50.0,
+        "acceleration": 50.0
+      }
+    },
+    {
+      "id": "1",
+      "type": "advanced_scan",
+      "point_id": "1",
+      "prev_node_id": "5",
+      "next_node_id": "3",
+      "x": 544.4726605265782,
+      "y": -84.5566730882756,
+      "turntable": {
+        "start_angle": 360.0,
+        "end_angle": 0.0,
+        "scan_count": 10,
+        "advanced_scan_mode": "range",
+        "speed": 50.0,
+        "acceleration": 50.0
+      },
+      "motion": {
+        "speed": 50.0,
+        "acceleration": 50.0
+      }
+    },
+    {
+      "id": "3",
+      "type": "advanced_scan",
+      "point_id": "3",
+      "prev_node_id": "1",
+      "next_node_id": "4",
+      "x": 816.846819526252,
+      "y": -81.5574487599911,
+      "turntable": {
+        "start_angle": 0.0,
+        "end_angle": 360.0,
+        "scan_count": 10,
+        "advanced_scan_mode": "range",
+        "speed": 50.0,
+        "acceleration": 50.0
+      },
+      "motion": {
+        "speed": 50.0,
+        "acceleration": 50.0
+      }
+    },
+    {
+      "id": "4",
+      "type": "advanced_scan",
+      "point_id": "4",
+      "prev_node_id": "3",
+      "next_node_id": "2",
+      "x": 541.3887309813349,
+      "y": 216.42340976312607,
+      "turntable": {
+        "start_angle": 360.0,
+        "end_angle": 0.0,
+        "scan_count": 10,
+        "advanced_scan_mode": "range",
+        "speed": 50.0,
+        "acceleration": 50.0
+      },
+      "motion": {
+        "speed": 50.0,
+        "acceleration": 50.0
+      }
+    },
+    {
+      "id": "2",
+      "type": "end",
+      "point_id": "0",
+      "prev_node_id": "4",
+      "x": 842.9574546414124,
+      "y": 130.77638500039663,
+      "turntable": {
+        "angle": 0.0,
+        "speed": 50.0,
+        "acceleration": 50.0
+      },
+      "motion": {
+        "speed": 50.0,
+        "acceleration": 50.0
+      }
+    }
+  ],
+  "safe_route_ids": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+  ],
+  "safe_routes": [
+    [
+      true,
+      true,
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false,
+      true,
+      true
+    ]
+  ],
+  "per_point_exposure": false,
+  "per_point_marker_exposure": false
+}

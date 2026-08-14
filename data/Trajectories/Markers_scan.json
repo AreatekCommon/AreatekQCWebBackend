@@ -1,0 +1,102 @@
+{
+  "positions": [
+    {
+      "id": "0",
+      "type": "home",
+      "comment": "Robot start position",
+      "axes": {
+        "J1": -37.18,
+        "J2": -92.14,
+        "J3": 99.3,
+        "J4": -0.45,
+        "J5": 82.5,
+        "J6": -104.25
+      },
+      "turntable": {
+        "angle": 0.0,
+        "speed": 50.0,
+        "acceleration": 50.0
+      }
+    },
+    {
+      "id": "0",
+      "type": "advanced_scan",
+      "comment": "Multi-angle scan sweep",
+      "axes": {
+        "J1": -37.18,
+        "J2": -92.14,
+        "J3": 99.3,
+        "J4": -0.45,
+        "J5": 82.5,
+        "J6": -104.25
+      },
+      "turntable": {
+        "start_angle": 0.0,
+        "end_angle": 360.0,
+        "scan_count": 22,
+        "speed": 50.0,
+        "acceleration": 50.0
+      }
+    },
+    {
+      "id": "3",
+      "type": "advanced_scan",
+      "comment": "",
+      "axes": {
+        "J1": -106.16,
+        "J2": -117.36,
+        "J3": 114.22,
+        "J4": 3.79,
+        "J5": -45.99,
+        "J6": 25.41
+      },
+      "turntable": {
+        "start_angle": 360.0,
+        "end_angle": 0.0,
+        "scan_count": 3,
+        "speed": 50.0,
+        "acceleration": 50.0
+      },
+      "motion": {
+        "speed": 50.0,
+        "acceleration": 50.0
+      }
+    },
+    {
+      "id": "0",
+      "type": "end",
+      "comment": "",
+      "axes": {
+        "J1": -37.18,
+        "J2": -92.14,
+        "J3": 99.3,
+        "J4": -0.45,
+        "J5": 82.5,
+        "J6": -104.25
+      },
+      "turntable": {
+        "angle": 0.0,
+        "speed": 50.0,
+        "acceleration": 50.0
+      },
+      "motion": {
+        "speed": 50.0,
+        "acceleration": 50.0
+      }
+    }
+  ],
+  "safe_route_ids": [
+    "0",
+    "3"
+  ],
+  "safe_routes": [
+    [
+      true,
+      true
+    ],
+    [
+      true,
+      true
+    ]
+  ]
+}
